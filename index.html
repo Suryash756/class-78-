@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Family</title>
+    </head>
+    <body>
+        <img id="img1" src="https://i.pinimg.com/originals/cc/d7/82/ccd782033d922fa50ada2e4cc827e598.jpg" alt="father">
+        <h4 id="father"></h4>
+        <center>
+        <button onclick="click()">Next</button>
+        </center>
+    </body>
+    <script>
+        
+        var son="father";
+            document.getElementById("father").innerHTML = son;
+    </script>
+    <style>
+        body{
+            text-align:center;
+            border:solid;
+            background: linear-gradient(to right,red,purple);
+        }
+        img{
+            height:500px;
+            width:300px;
+            margin:10px;
+            border:solid;
+        } 
+        button{
+            height:100px;
+            width:300px;
+            font-size:90px;
+            border:solid;
+            font-weight:bold;
+            transition: transform.2s;
+        }
+        button:hover{
+            transform:scale(0.9);
+        }
+        h4{
+            font-size:30px;
+        }
+    </style>
+</html>
